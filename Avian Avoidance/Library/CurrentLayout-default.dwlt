@@ -337,20 +337,20 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts
+    - Assets/SampleScenes/Models
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scripts
+  - Assets/SampleScenes/Models
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\mhill9\Documents\GitHub\GCD-2019-20\Avian Avoidance
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: dc2c0000
-    m_LastClickedID: 11484
-    m_ExpandedIDs: 00000000b82c000000ca9a3b
+    m_SelectedIDs: 422f0000
+    m_LastClickedID: 12098
+    m_ExpandedIDs: 00000000b82c00009c2f000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -501,7 +501,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 82300000
       m_LastClickedID: 12418
-      m_ExpandedIDs: 78fbffffa2300000
+      m_ExpandedIDs: 78fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -561,9 +561,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 7.3103123, y: 8.489777, z: -2.0327}
+    m_Target: {x: 10.349163, y: 5.0988626, z: 8.792468}
     speed: 2
-    m_Value: {x: 7.3103123, y: 8.489777, z: -2.0326998}
+    m_Value: {x: 10.349163, y: 5.0988626, z: 8.792468}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -592,13 +592,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: 0.29585177, y: 0.285044, z: -0.09298206, w: 0.9069852}
+    m_Target: {x: 0.14954932, y: 0.2002211, z: -0.030932248, w: 0.96780014}
     speed: 2
-    m_Value: {x: 0.29448414, y: 0.2851766, z: -0.092552215, w: 0.907407}
+    m_Value: {x: 0.14954577, y: 0.20021635, z: -0.030931514, w: 0.9677772}
   m_Size:
-    m_Target: 9.086448
+    m_Target: 14.110974
     speed: 2
-    m_Value: 8.695166
+    m_Value: 14.110974
   m_Ortho:
     m_Target: 0
     speed: 2
