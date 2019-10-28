@@ -38,7 +38,7 @@ public class RayCastSight : MonoBehaviour
             RaycastHit hit;
 
             Vector3 clickPoint = cam.ScreenToWorldPoint(new Vector3(mousePos.x, mousePos.y, 10));
-            Vector3 ScreenPoint = cam.ScreenToWorldPoint(new Vector3(mousePos.x, mousePos.y, cam.nearClipPlane));
+            Vector3 ScreenPoint = cam.ScreenToWorldPoint(new Vector3(mousePos.x, mousePos.y, 100));
             if (Physics.Raycast(ScreenPoint, cam.transform.forward, out hit, weaponRange))
             {
                 Instantiate(prefab, hit.point, Quaternion.identity);

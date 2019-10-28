@@ -72,9 +72,8 @@
     <Compile Include="Assets\SampleScenes\Scripts\SlowMoButton.cs" />
     <Compile Include="Assets\Scripts\MouseLook.cs" />
     <Compile Include="Assets\Scripts\Movement.cs" />
+    <Compile Include="Assets\Scripts\RayCastFromCamera.cs" />
     <Compile Include="Assets\Scripts\RayCastSight.cs" />
-    <Compile Include="Assets\Scripts\RayCastViewer.cs" />
-    <Compile Include="Assets\Scripts\target.cs" />
     <None Include="Assets\SampleScenes\Shaders\Skybox-Procedural.shader" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>C:/Users/mhill9/Documents/GitHub/GCD-2019-20/Avian Avoidance/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
