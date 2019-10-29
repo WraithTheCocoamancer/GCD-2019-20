@@ -19,6 +19,7 @@ public class RayCastFromCamera : MonoBehaviour
             if (Physics.Raycast(ray,out hit, Length, layermask))
             {
                 Debug.Log(hit.collider.name);
+                Debug.Log(hit.point);
             }
         }
     }
