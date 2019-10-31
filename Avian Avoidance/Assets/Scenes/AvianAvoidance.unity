@@ -249,7 +249,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 11469404, guid: 7737647c22c1fc64a88d5cd030c352ce, type: 3}
       propertyPath: m_JumpPower
-      value: 100
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7737647c22c1fc64a88d5cd030c352ce, type: 3}
@@ -553,6 +553,7 @@ MonoBehaviour:
   layermask:
     serializedVersion: 2
     m_Bits: 1
+  prefab: {fileID: 6867120304694948285, guid: 18881c56f4e85ab42bd6b571357a13d4, type: 3}
 --- !u!1 &1126673053
 GameObject:
   m_ObjectHideFlags: 0

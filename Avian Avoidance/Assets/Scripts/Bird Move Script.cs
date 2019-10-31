@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class BirdMoveScript : MonoBehaviour
 {
+    public RayCastFromCamera BirdDirection;
     // Start is called before the first frame update
     void Start()
     {
