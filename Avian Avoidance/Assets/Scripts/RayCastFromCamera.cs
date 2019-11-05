@@ -9,6 +9,7 @@ public class RayCastFromCamera : MonoBehaviour
     public float Length;
     public LayerMask layermask;
     public GameObject prefab;
+    public static Vector3 BirdDestination;
     // Update is called once per frame
     private void Update()
     {
@@ -21,7 +22,8 @@ public class RayCastFromCamera : MonoBehaviour
                 Debug.Log(hit.collider.name);
                 Debug.Log(hit.point);
                 Debug.Log(hit.normal);
-                //Instantiate(prefab, hit.point + hit.normal * 0.3f, Quaternion.identity);
+                Instantiate(prefab, hit.point + hit.normal * 0.3f, Quaternion.identity);
+                BirdDestination = hit.point + hit.normal * 0.3f;
             }
         }
     }
