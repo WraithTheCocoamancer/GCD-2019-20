@@ -28,6 +28,8 @@ namespace UnityStandardAssets.Characters.ThirdPerson
 		Vector3 m_CapsuleCenter;
 		CapsuleCollider m_Capsule;
 		bool m_Crouching;
+        // trying to add backwards movement/moonwalk
+        float m_BackwardsAmount;
 
 
 		void Start()
