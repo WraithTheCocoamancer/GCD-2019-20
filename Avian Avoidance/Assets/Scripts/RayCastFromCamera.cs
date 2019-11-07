@@ -12,7 +12,7 @@ public class RayCastFromCamera : MonoBehaviour
     /// </summary>
     public float Length;
     public LayerMask layermask;
-    public GameObject prefab;
+
 
 
     public Vector3 VectorHit;
@@ -33,7 +33,7 @@ public class RayCastFromCamera : MonoBehaviour
 
 
                 VectorHit = hit.point + hit.normal * 0.3f;
-
+                Debug.Log(VectorHit);
 
             }
         }
