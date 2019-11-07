@@ -14,7 +14,9 @@ public class RayCastFromCamera : MonoBehaviour
     public LayerMask layermask;
     public GameObject prefab;
 
+
     public Vector3 VectorHit;
+
 
     // Update is called once per frame
     private void Update()
@@ -28,9 +30,10 @@ public class RayCastFromCamera : MonoBehaviour
                 Debug.Log(hit.collider.name);
                 Debug.Log(hit.point);
                 Debug.Log(hit.normal);
-                Instantiate(prefab, hit.point + hit.normal * 0.3f, Quaternion.identity);
+
 
                 VectorHit = hit.point + hit.normal * 0.3f;
+
 
             }
         }
