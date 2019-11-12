@@ -14,28 +14,44 @@ public class RayCastFromCamera : MonoBehaviour
     public LayerMask layermask;
 
 
-
-    public Vector3 VectorHit;
+ 
+    public Vector3 VectorHit = Vector3.zero;
 
 
     // Update is called once per frame
     private void Update()
     {
+
+    }
+
+    public Vector3 CheckRaycast()
+    {
+
         if (Input.GetMouseButtonDown(0) && !EventSystem.current.IsPointerOverGameObject())
         {
             RaycastHit hit;
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-            if (Physics.Raycast(ray,out hit, Length, layermask))
+            if (Physics.Raycast(ray, out hit, Length, layermask))
             {
                 Debug.Log(hit.collider.name);
                 Debug.Log(hit.point);
                 Debug.Log(hit.normal);
 
-
-                VectorHit = hit.point + hit.normal * 0.3f;
-                Debug.Log(VectorHit);
+                Debug.Log("Vector Hit");
+                return VectorHit = hit.point + hit.normal * 0.3f;
+                
 
             }
+
+            else
+            {
+                Debug.Log("Vector Miss");
+                return VectorHit = Vector3.zero;
+            }
+        }
+        else
+        {
+            return Vector3.zero;
         }
     }
 }
