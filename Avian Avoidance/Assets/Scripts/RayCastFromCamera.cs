@@ -33,9 +33,9 @@ public class RayCastFromCamera : MonoBehaviour
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
             if (Physics.Raycast(ray, out hit, Length, layermask))
             {
-                Debug.Log(hit.collider.name);
-                Debug.Log(hit.point);
-                Debug.Log(hit.normal);
+                //Debug.Log(hit.collider.name);
+                //Debug.Log(hit.point);
+                //Debug.Log(hit.normal);
 
                 Debug.Log("Vector Hit");
                 return VectorHit = hit.point + hit.normal * 0.3f;

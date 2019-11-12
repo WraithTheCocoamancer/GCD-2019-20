@@ -6,6 +6,10 @@ public class BirdMoveScript : MonoBehaviour
 {
 
     public Vector3 RaycastHit = Vector3.zero;
+    public Vector3 BirdLocation = Vector3.zero;
+    public Vector3 BirdHeading = Vector3.zero;
+    public Vector3 BirdDirection = Vector3.zero;
+    public Vector3 BirdDistance = Vector3.zero;
 
     private RayCastFromCamera raycastfromcamera;
 
@@ -22,9 +26,13 @@ public class BirdMoveScript : MonoBehaviour
         if (Input.GetMouseButtonDown(0))
         {
             RaycastHit = raycastfromcamera.CheckRaycast();
-            Debug.Log(RaycastHit);
+            //Debug.Log(RaycastHit);
+            BirdLocation = transform.position;
+            Debug.Log(BirdLocation);
+            BirdHeading = RaycastHit - BirdLocation;
+            
 
         }
-    }
+    } 
   
 }
