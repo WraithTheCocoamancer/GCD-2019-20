@@ -483,7 +483,7 @@ GameObject:
   - component: {fileID: 924178392}
   - component: {fileID: 924178391}
   - component: {fileID: 924178390}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -819,7 +819,7 @@ GameObject:
   - component: {fileID: 1127425565}
   - component: {fileID: 1127425564}
   - component: {fileID: 1127425568}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: BadGuy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -927,7 +927,7 @@ GameObject:
   - component: {fileID: 1649951826}
   - component: {fileID: 1649951825}
   - component: {fileID: 1649951824}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}

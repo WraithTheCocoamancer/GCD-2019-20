@@ -31,7 +31,7 @@ public class RayCastFromCamera : MonoBehaviour
         {
             RaycastHit hit;
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-            if (Physics.Raycast(ray, out hit, Length, layermask))
+            if (Physics.Raycast(ray, out hit, Length, 1<<8 ))
             {
                 //Debug.Log(hit.collider.name);
                 //Debug.Log(hit.point);
