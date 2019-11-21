@@ -10,6 +10,7 @@ public class RayCastFromCamera : MonoBehaviour
     /// have altered it to give me the world point and adding the normal too it
     /// 
     /// </summary>
+    //Special thanks to third year students who helped me passing peramiters and having the bird turn I'm sorry I didn't get your names but i still wanna get you a pepsi
     public float Length;
     public LayerMask layermask;
 
@@ -21,7 +22,7 @@ public class RayCastFromCamera : MonoBehaviour
     // Update is called once per frame
     private void Update()
     {
-
+        layermask = LayerMask.GetMask("Objects", "Enemies");
     }
 
     public Vector3 CheckRaycast()
@@ -31,15 +32,16 @@ public class RayCastFromCamera : MonoBehaviour
         {
             RaycastHit hit;
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-            if (Physics.Raycast(ray, out hit, Length, 1<<8 ))
+            if (Physics.Raycast(ray, out hit, Length, layermask))
             {
                 //Debug.Log(hit.collider.name);
                 //Debug.Log(hit.point);
                 //Debug.Log(hit.normal);
 
                 Debug.Log("Vector Hit");
+
                 return VectorHit = hit.point + hit.normal * 0.3f;
-                
+
 
             }
 
@@ -48,6 +50,8 @@ public class RayCastFromCamera : MonoBehaviour
                 Debug.Log("Vector Miss");
                 return VectorHit = Vector3.zero;
             }
+
+
         }
         else
         {

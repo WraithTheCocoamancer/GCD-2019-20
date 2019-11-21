@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+//Special thanks to third year students who helped me passing peramiters and having the bird turn I'm sorry I didn't get your names but i still wanna get you a pepsi
 public class BirdMoveScript : MonoBehaviour
 {
 
@@ -29,9 +29,8 @@ public class BirdMoveScript : MonoBehaviour
             BirdLocation = transform.position;
             Debug.Log(BirdLocation);
             BirdDirection = RaycastHit - BirdLocation;
-            
             transform.rotation = Quaternion.LookRotation(BirdDirection, Vector3.up);
-
+            transform.position = Vector3.MoveTowards(transform.position, RaycastHit, 100f); //to be replaced later with smooth movement.
         }
     } 
   
