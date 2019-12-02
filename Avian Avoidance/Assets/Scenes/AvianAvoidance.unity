@@ -1231,6 +1231,8 @@ MonoBehaviour:
   RaycastHit: {x: 0, y: 0, z: 0}
   BirdLocation: {x: 0, y: 0, z: 0}
   BirdDirection: {x: 0, y: 0, z: 0}
+  Bird: {fileID: 0}
+  BirdTakeoff: {x: 0, y: 1, z: 0}
 --- !u!114 &1126673060
 MonoBehaviour:
   m_ObjectHideFlags: 0
