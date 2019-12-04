@@ -1260,6 +1260,7 @@ GameObject:
   - component: {fileID: 1127425564}
   - component: {fileID: 1127425568}
   - component: {fileID: 1127425569}
+  - component: {fileID: 1127425570}
   m_Layer: 10
   m_Name: BadGuy
   m_TagString: Untagged
@@ -1370,6 +1371,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   EnemyDirection: {x: 0, y: 0, z: 0}
+--- !u!114 &1127425570
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1127425563}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd44523441eecc448519940af5b37a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Player: {fileID: 0}
+  PlayerLocation: {x: 0, y: 0, z: 0}
+  VisionSize: 0.6
 --- !u!1 &1414930667
 GameObject:
   m_ObjectHideFlags: 0
