@@ -4,10 +4,11 @@ using UnityEngine;
 
 public class EnemyVision : MonoBehaviour
 {
-    private Transform LineOfSight;
+    
     public Rigidbody Player;
     public Vector3 PlayerLocation = Vector3.zero;
-    [SerializeField] private float VisionSize = 0.6f;
+    public Vector3 PlayerDirection = Vector3.zero;
+    [SerializeField] private float VisionSize = 0.9f;
     // Start is called before the first frame update
     void Start()
     {
@@ -17,19 +18,24 @@ public class EnemyVision : MonoBehaviour
 
     public void Vision()
     {
-        LineOfSight = null;
+        
         PlayerLocation = Player.transform.position;
+        PlayerDirection = PlayerLocation - transform.position;
         var FirstVector = Vector3.forward;
-        var SecondVector = PlayerLocation;
+        var SecondVector = PlayerDirection.normalized;
 
-        var LookPercentage = Vector3.Dot(FirstVector.normalized, SecondVector.normalized);
+        var LookPercentage = Vector3.Dot(FirstVector, SecondVector);
         Debug.Log(LookPercentage);
         //PlayerLocation.LookPercentage = LookPercentage;
-
+        if (Input.GetKeyDown(KeyCode.C))
+        {
+            Debug.Log(LookPercentage);
+        }
         if (LookPercentage > VisionSize)
         {
             Debug.Log("Spotted!");
-        }
+                
+            }
     }
 
     // Update is called once per frame

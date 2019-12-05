@@ -1383,8 +1383,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44523441eecc448519940af5b37a9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 0}
+  Player: {fileID: 1601249074}
   PlayerLocation: {x: 0, y: 0, z: 0}
+  PlayerDirection: {x: 0, y: 0, z: 0}
   VisionSize: 0.6
 --- !u!1 &1414930667
 GameObject:
@@ -1413,7 +1414,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1414930667}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.009168209, y: 0.31930816, z: 0.6188499}
+  m_LocalPosition: {x: 0.549, y: 0.31930816, z: -0.078}
   m_LocalScale: {x: 0.4307194, y: 0.18481845, z: 0.4307194}
   m_Children: []
   m_Father: {fileID: 1127425567}
@@ -1478,6 +1479,12 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1414930667}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!54 &1601249074 stripped
+Rigidbody:
+  m_CorrespondingSourceObject: {fileID: 5426510, guid: 7737647c22c1fc64a88d5cd030c352ce,
+    type: 3}
+  m_PrefabInstance: {fileID: 681815237}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1649951823
 GameObject:
   m_ObjectHideFlags: 0

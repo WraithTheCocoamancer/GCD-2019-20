@@ -74,10 +74,12 @@
     <Compile Include="Assets\Scripts\Distraction.cs" />
     <Compile Include="Assets\Scripts\EnemyDistracted.cs" />
     <Compile Include="Assets\Scripts\EnemyVision.cs" />
+    <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Scripts\MouseLook.cs" />
     <Compile Include="Assets\Scripts\Movement.cs" />
     <Compile Include="Assets\Scripts\RayCastFromCamera.cs" />
     <Compile Include="Assets\Scripts\RayCastSight.cs" />
+    <None Include="Assets\Scripts\Custom.shader" />
     <None Include="Assets\SampleScenes\Shaders\Skybox-Procedural.shader" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>C:/Users/mhill9/Documents/GitHub/GCD-2019-20/Avian Avoidance/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
