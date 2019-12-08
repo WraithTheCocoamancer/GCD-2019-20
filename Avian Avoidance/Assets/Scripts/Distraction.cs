@@ -22,23 +22,23 @@ public class Distraction : MonoBehaviour
         {
             DistractedEnemy();
         }
-        Debug.Log("Did not fire");
+        //Debug.Log("Did not fire");
         
     }
 
     public bool DistractedEnemy()
     {
        
-            Debug.Log("Pressed E");
+            //Debug.Log("Pressed E");
             if (Physics.CheckSphere(transform.position, 5, 1 << 10))
             {
 
-                Debug.Log("In range");
+                //Debug.Log("In range");
                 float lerp = Mathf.PingPong(Time.time, duration) / duration;
                 rend.material.color = Color.Lerp(colorStart, colorEnd, lerp);
                 return true;
             }
-            Debug.Log("Not in range");
+            //Debug.Log("Not in range");
             return false;
         
         

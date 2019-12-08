@@ -38,7 +38,7 @@ public class RayCastFromCamera : MonoBehaviour
                 //Debug.Log(hit.point);
                 //Debug.Log(hit.normal);
 
-                Debug.Log("Vector Hit");
+                //Debug.Log("Vector Hit");
 
                 return VectorHit = hit.point + hit.normal * 0.3f;
 
@@ -47,7 +47,7 @@ public class RayCastFromCamera : MonoBehaviour
 
             else
             {
-                Debug.Log("Vector Miss");
+                //Debug.Log("Vector Miss");
                 return VectorHit = Vector3.zero;
             }
 

@@ -25,7 +25,7 @@ public class BirdMoveScript : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0))
         {
-            transform.position = Vector3.Lerp(transform.position, transform.position + BirdTakeoff, 0.25f);
+            transform.position = Vector3.Lerp(transform.position, transform.position + BirdTakeoff, 0.1f);
             RaycastHit = raycastfromcamera.CheckRaycast();
             //Debug.Log(RaycastHit);
             BirdLocation = transform.position;
