@@ -6,9 +6,9 @@ public class EnemyVision : MonoBehaviour
 {
     
     public Rigidbody Player;
-    public Vector3 PlayerLocation = Vector3.zero;
-    public Vector3 PlayerDirection = Vector3.zero;
-    [SerializeField] private float VisionSize = 0.9f;
+    private Vector3 PlayerLocation = Vector3.zero;
+    private Vector3 PlayerDirection = Vector3.zero;
+    private float VisionSize = 0.9f;
     // Start is called before the first frame update
     void Start()
     {
@@ -25,7 +25,7 @@ public class EnemyVision : MonoBehaviour
         var SecondVector = PlayerDirection.normalized;
 
         var LookPercentage = Vector3.Dot(FirstVector, SecondVector);
-        Debug.Log(LookPercentage);
+        //Debug.Log(LookPercentage);
         //PlayerLocation.LookPercentage = LookPercentage;
         if (Input.GetKeyDown(KeyCode.C))
         {

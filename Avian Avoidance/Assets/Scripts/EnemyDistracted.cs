@@ -6,6 +6,8 @@ public class EnemyDistracted : MonoBehaviour
 {
     private Distraction DistractionHit;
     public Vector3 EnemyDirection = Vector3.zero;
+    private Quaternion firstRotation;
+    private Quaternion SecondRotation;
     // Start is called before the first frame update
     void Start()
     {
@@ -25,8 +27,11 @@ public class EnemyDistracted : MonoBehaviour
     {
         if (DistractionHit.DistractedEnemy())
         {
+
+            firstRotation = transform.rotation;
             EnemyDirection = DistractionHit.transform.position - transform.position;
-            transform.rotation = Quaternion.LookRotation(EnemyDirection, Vector3.up);
+            SecondRotation = Quaternion.LookRotation(EnemyDirection);
+            transform.rotation = Quaternion.Lerp(firstRotation, SecondRotation, 1f);
         }
         else
         {
