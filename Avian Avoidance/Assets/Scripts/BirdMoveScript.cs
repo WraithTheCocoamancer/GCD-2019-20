@@ -37,6 +37,7 @@ public class BirdMoveScript : MonoBehaviour
 
         if (Vector3.Distance(transform.position, RaycastHit) >= 0.1f)
         {
+
             transform.position = Vector3.Lerp(transform.position, RaycastHit, 0.01f); //to be replaced later with smooth movement.
             
         }

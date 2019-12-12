@@ -79,6 +79,7 @@
     <Compile Include="Assets\Scripts\Movement.cs" />
     <Compile Include="Assets\Scripts\RayCastFromCamera.cs" />
     <Compile Include="Assets\Scripts\RayCastSight.cs" />
+    <Compile Include="Assets\Scripts\Spotted.cs" />
     <None Include="Assets\Scripts\Custom.shader" />
     <None Include="Assets\SampleScenes\Shaders\Skybox-Procedural.shader" />
     <Reference Include="Unity.Timeline.Editor">
