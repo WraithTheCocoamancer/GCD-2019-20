@@ -75,6 +75,7 @@
     <Compile Include="Assets\Scripts\EnemyDistracted.cs" />
     <Compile Include="Assets\Scripts\EnemyVision.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
+    <Compile Include="Assets\Scripts\LevelClear.cs" />
     <Compile Include="Assets\Scripts\MouseLook.cs" />
     <Compile Include="Assets\Scripts\Movement.cs" />
     <Compile Include="Assets\Scripts\RayCastFromCamera.cs" />
