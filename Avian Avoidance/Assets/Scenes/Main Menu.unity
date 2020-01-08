@@ -190,7 +190,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: AVIAN AVOIDANCE(Placeholder)
+  m_Text: AVIAN AVOIDANCE
 --- !u!222 &110039326
 CanvasRenderer:
   m_ObjectHideFlags: 0
