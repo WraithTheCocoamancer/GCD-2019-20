@@ -1,0 +1,1 @@
+There is a copy of these assets in the project as well in case you wanted too look at it in unity editor hope thats okay if not ignore everything else of this was mine or referenced in code
