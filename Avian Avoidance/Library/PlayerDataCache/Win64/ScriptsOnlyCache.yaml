@@ -14,7 +14,6 @@ ScriptsOnlyBuild:
     - Spotted
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
-    - UnityEditor.TestTools.TestRunner.TestListCacheData
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.EventSystem
     - UnityEngine.EventSystems.StandaloneInputModule
@@ -68,25 +67,25 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 10100}
     - Class: 114
-      Script: {instanceID: 10320}
+      Script: {instanceID: 10322}
     - Class: 114
-      Script: {instanceID: 10438}
+      Script: {instanceID: 10442}
     - Class: 114
-      Script: {instanceID: 10550}
+      Script: {instanceID: 10554}
     - Class: 114
-      Script: {instanceID: 10608}
+      Script: {instanceID: 10612}
     - Class: 114
-      Script: {instanceID: 10988}
+      Script: {instanceID: 10992}
     - Class: 114
-      Script: {instanceID: 11094}
+      Script: {instanceID: 11098}
     - Class: 114
-      Script: {instanceID: 11448}
+      Script: {instanceID: 11454}
     - Class: 114
-      Script: {instanceID: 11506}
+      Script: {instanceID: 11512}
     - Class: 114
-      Script: {instanceID: 11602}
+      Script: {instanceID: 11608}
     - Class: 114
-      Script: {instanceID: 11630}
+      Script: {instanceID: 11636}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 134
@@ -127,15 +126,15 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 9922}
     - Class: 114
-      Script: {instanceID: 10320}
+      Script: {instanceID: 10322}
     - Class: 114
-      Script: {instanceID: 10728}
+      Script: {instanceID: 10732}
     - Class: 114
-      Script: {instanceID: 11224}
+      Script: {instanceID: 11230}
     - Class: 114
-      Script: {instanceID: 11448}
+      Script: {instanceID: 11454}
     - Class: 114
-      Script: {instanceID: 11602}
+      Script: {instanceID: 11608}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -176,15 +175,15 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 9922}
     - Class: 114
-      Script: {instanceID: 10320}
+      Script: {instanceID: 10322}
     - Class: 114
-      Script: {instanceID: 10728}
+      Script: {instanceID: 10732}
     - Class: 114
-      Script: {instanceID: 11224}
+      Script: {instanceID: 11230}
     - Class: 114
-      Script: {instanceID: 11448}
+      Script: {instanceID: 11454}
     - Class: 114
-      Script: {instanceID: 11602}
+      Script: {instanceID: 11608}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -225,15 +224,64 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 9922}
     - Class: 114
-      Script: {instanceID: 10320}
+      Script: {instanceID: 10322}
     - Class: 114
-      Script: {instanceID: 10728}
+      Script: {instanceID: 10732}
     - Class: 114
-      Script: {instanceID: 11224}
+      Script: {instanceID: 11230}
     - Class: 114
-      Script: {instanceID: 11448}
+      Script: {instanceID: 11454}
     - Class: 114
-      Script: {instanceID: 11602}
+      Script: {instanceID: 11608}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/Win Game.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 9706}
+    - Class: 114
+      Script: {instanceID: 9876}
+    - Class: 114
+      Script: {instanceID: 9922}
+    - Class: 114
+      Script: {instanceID: 10322}
+    - Class: 114
+      Script: {instanceID: 10732}
+    - Class: 114
+      Script: {instanceID: 11230}
+    - Class: 114
+      Script: {instanceID: 11454}
+    - Class: 114
+      Script: {instanceID: 11608}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -305,7 +353,7 @@ ScriptsOnlyBuild:
     className: AICharacterControl
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+      Hash: b5d041b8f45ee2840aee7256a7c170bc
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: LevelClear
@@ -491,7 +539,7 @@ ScriptsOnlyBuild:
     className: TimedObjectActivator
   - hash:
       serializedVersion: 2
-      Hash: 09b3604a882b03fdeeb679b8a15dfad0
+      Hash: eface7d01696ce1d12f6720c9e0939c3
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: EnemyVision
@@ -561,6 +609,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Shadow
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: HealthSystem
   - hash:
       serializedVersion: 2
       Hash: db1f205a8c9dae1c39098cd23fc97f63
@@ -633,6 +687,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: UnityStandardAssets.Utility
     className: PlatformSpecificContent
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: GameHandler
   - hash:
       serializedVersion: 2
       Hash: 5e8a01a14cef8c5fb6866e39e13545df
@@ -1025,6 +1085,12 @@ ScriptsOnlyBuild:
     className: PlaceTargetWithMouse
   - hash:
       serializedVersion: 2
+      Hash: bcf4e0213f52502c2c227b29bb7f6829
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: HurtTrigger
+  - hash:
+      serializedVersion: 2
       Hash: c0e061a135ad81adea53b31e6bf68107
     assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: UnityStandardAssets.Vehicles.Aeroplane
@@ -1281,4 +1347,5 @@ ScriptsOnlyBuild:
   - Assets/Scenes/Game Over.unity
   - Assets/Scenes/Controls.unity
   - Assets/Scenes/AvianAvoidance.unity
+  - Assets/Scenes/Win Game.unity
   playerPath: C:/Users/mhill9/Documents/GitHub/GCD-2019-20/Builds/Avian Avoidance.exe
