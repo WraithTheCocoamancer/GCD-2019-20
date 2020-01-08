@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.SceneManagement;
 using UnityEngine;
 
 public class EnemyVision : MonoBehaviour
@@ -12,7 +13,10 @@ public class EnemyVision : MonoBehaviour
     public bool playerspotted = false;
     [SerializeField]
     [Range(0, 1)]
-    private float  VisionSize = 0.9f;
+    private float VisionSize = 0.9f;
+    [SerializeField] private float SpottedTime = 3f;
+    private float spottedDelay;
+    public GameObject GameSceneManager;
     // Start is called before the first frame update
     void Start()
     {
@@ -49,6 +53,11 @@ public class EnemyVision : MonoBehaviour
             {
                 Debug.Log("Spotted!");
                 playerspotted = true;
+                spottedDelay += Time.deltaTime;
+                    if (spottedDelay > SpottedTime)
+                {
+                    GameSceneManager.GetComponent<GameManager>().EndGame();
+                }
             }
             else
             {

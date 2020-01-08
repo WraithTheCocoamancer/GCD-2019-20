@@ -74,7 +74,10 @@
     <Compile Include="Assets\Scripts\Distraction.cs" />
     <Compile Include="Assets\Scripts\EnemyDistracted.cs" />
     <Compile Include="Assets\Scripts\EnemyVision.cs" />
+    <Compile Include="Assets\Scripts\GameHandler.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
+    <Compile Include="Assets\Scripts\HealthSystem.cs" />
+    <Compile Include="Assets\Scripts\HurtTrigger.cs" />
     <Compile Include="Assets\Scripts\LevelClear.cs" />
     <Compile Include="Assets\Scripts\MouseLook.cs" />
     <Compile Include="Assets\Scripts\Movement.cs" />
