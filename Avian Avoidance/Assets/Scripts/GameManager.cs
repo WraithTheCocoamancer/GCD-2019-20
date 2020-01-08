@@ -22,7 +22,10 @@ public class GameManager : MonoBehaviour
         SceneManager.LoadScene("Controls");
     }
 
-
+    public void WinGame()
+    {
+        SceneManager.LoadScene("Win Game");
+    }
 }
 
 
